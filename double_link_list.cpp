@@ -1,5 +1,4 @@
 #include<iostream>
-#include<vector>
 #include<stdio.h>
 #include<map>
 using namespace std;
@@ -78,7 +77,6 @@ public:
 	Node* pre;
 	int cap = 0;
 	int cnt = 0;
-	int len = 0;
 	LRUCache(int capacity = 0) :cap(capacity) {};
 	
 	int get(int key) {
